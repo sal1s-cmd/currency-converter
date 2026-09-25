@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: 'Inter', sans-serif;
   background: #0f0f0f;
   color: #e0e0e0;
   display: flex;
@@ -62,17 +62,18 @@ input:focus, select:focus {
 button {
   width: 100%;
   padding: 12px;
-  background: #3b82f6;
+  background: #cccccc;
   color: white;
   border: none;
   border-radius: 8px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  color: #000000;
 }
 
 button:hover {
-  background: #2563eb;
+  background: #ffffff;
 }
 
 button:active {
@@ -93,11 +94,23 @@ button:active {
   color: #888;
 }
 
-.made-by a {
-  color: #3b82f6;
+.made {
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.made a {
+  color: #ffffff;
   text-decoration: none;
 }
 
-.made-by a:hover {
+.made a:hover {
   text-decoration: underline;
 }
