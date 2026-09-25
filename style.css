@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f0f0f;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  background: #1a1a1a;
+  padding: 32px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+input, select {
+  background: #2a2a2a;
+  border: 1px solid #333;
+  color: #e0e0e0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+input {
+  width: 100px;
+}
+
+select {
+  flex: 1;
+}
+
+input:focus, select:focus {
+  border-color: #555;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#rate {
+  margin-top: 8px;
+  font-size: 13px;
+  text-align: center;
+  color: #888;
+}
