@@ -12,3 +12,12 @@ Currency converter in TypeScript. Live rates fetched from an API, clean HTML/CSS
 ```bash
 npm install
 npm run build
+Then start a local server:
+
+bash
+python -m http.server 8000
+Or use Live Server in VS Code. Then open:
+
+text
+http://localhost:8000
+Note: opening index.html directly via file:// won't work because ES modules are blocked by CORS. You need a local server.
