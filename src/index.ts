@@ -64,7 +64,7 @@ async function init(): Promise<void> {
     state.rates = data.rates;
     convert();
   } catch (err) {
-    resultEl.textContent = 'Не удалось загрузить курсы';
+    resultEl.textContent = 'Failed to load rates';
     console.error(err);
   }
 }
