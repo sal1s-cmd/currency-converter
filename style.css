@@ -92,3 +92,12 @@ button:active {
   text-align: center;
   color: #888;
 }
+
+.made-by a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.made-by a:hover {
+  text-decoration: underline;
+}
